@@ -1,0 +1,7 @@
+<form>
+	<input type="text" name="fname"	@@fname><br>
+	:e@@_fname<br>
+	<input type="text" name="lname"	@@lname><br>
+	:e@@_lname<br>
+	<input type="button" name="send" value='send' ng-click='sendData()'>
+</form>

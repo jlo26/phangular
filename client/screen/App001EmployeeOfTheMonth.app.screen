@@ -1,0 +1,19 @@
+<md-content layout-gt-sm="column" layout-padding>
+    <div layout-gt-sm="row">
+        <md-input-container class="md-block" flex-gt-sm>
+            <label>First name</label>
+            <input @@fname>
+             :e@@_fname
+        </md-input-container>
+    </div>
+    <div layout-gt-sm="row">
+        <md-input-container class="md-block" flex-gt-sm>
+            <label>Last name</label>
+            <input @@lname>
+            :e@@_lname
+        </md-input-container>
+    </div>
+    <div layout-gt-sm="row">
+        <md-button class="md-raised" ng-click='sendData()'>Button</md-button>
+    </div>
+</md-content>

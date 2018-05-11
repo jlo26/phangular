@@ -1,0 +1,213 @@
+<html ng-app='appApiModule'>
+    <head>
+        <title>Wright Agency</title>
+        <link rel="stylesheet" href="client_script_loader.php?type=css&index=ui-md">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script type="text/javascript" src="client_script_loader.php?type=js&index=ui-md"></script>
+    </head>
+    <body>
+        <div ng-controller="AppCtrl" layout="column"  ng-cloak>
+            <md-content layout="column" layout-fill>    
+            <md-toolbar class="warm">
+                <div class="md-toolbar-tools">
+                    <!-- <md-button class="md-icon-button" aria-label="Settings" ng-click="ctrl.showToolbarMenu($event, ctrl.settings)"> -->
+                    <md-button class="md-icon-button" 
+                        aria-label="Settings" 
+                        ng-click="toggleSidenav()">
+                        <md-icon> menu </md-icon>
+                    </md-button>
+                    <h2> Wright Maintenance</h2>
+                    <span flex></span>
+                    <!--<md-button class="md-icon-button" aria-label="Favorite" ng-click="ctrl.showToolbarMenu($event, ctrl.favorite)">
+                        <md-icon ></md-icon>
+                    </md-button>
+                    <md-button class="md-icon-button" aria-label="More" ng-click="ctrl.showToolbarMenu($event, ctrl.more)">
+                        <md-icon ></md-icon>
+                    </md-button> -->
+                </div>
+            </md-toolbar>
+        
+                <section layout="row" flex>        
+                    <md-sidenav class="md-sidenav-left" md-component-id="closeEventsDisabled" md-whiteframe="4" md-disable-close-events>        
+                        <md-toolbar class="md-theme-indigo">
+                            <h1 class="md-toolbar-tools">Menu Items</h1>
+                        </md-toolbar>        
+                        <md-content layout-margin>
+                            <p>
+                                This sidenav is showing the backdrop, but users can't close the sidenav by clicking on the backdrop or pressing the 'Escape'
+                                key.
+                            </p>
+                            <md-button ng-click="toggleSidenav()" class="md-accent">
+                                Close this Sidenav
+                            </md-button>
+                        </md-content>            
+                    </md-sidenav>                                
+                    <md-content flex layout-padding>        
+                        <div layout="row" layout-align="center center">
+                            <md-card flex="66">
+                                <md-card-title>
+                                    <div flex="5"></div>
+                                    <md-card-title-text layout-align="center end">
+                                        <span class="md-headline">Partner Setting</span>
+                                        <md-divider></md-divider>
+                                        <span class="md-subhead">Tell us a little about you.</span>
+                                    </md-card-title-text>
+                                    <div flex="5"></div>
+                                </md-card-title>
+                            
+                                <md-card-content>
+                                    <div layout="row" >
+                                        <div flex="5"></div>
+                                        <md-input-container flex="40">
+                                            <label>Rec No.</label>
+                                            <input>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                        
+                                        <!-- <md-input-container flex="45">
+                                            <label>City</label>
+                                            <input>
+                                        </md-input-container> -->
+                                        <div flex="50"></div>
+                                    </div>
+                                    
+                                    <div layout="row">
+                                        <div flex="5"></div>
+                                        <md-input-container flex="40">
+                                            <label>Name</label>
+                                            <input required 
+                                                ng-model="input.name" 
+                                                md-maxlength="30"
+                                                >
+                                            <div ng-messages="input.name.$error">
+                                                <div ng-message="required">This is required.</div>
+                                                <div ng-message="md-maxlength">The description must be less than 30 characters long.</div>
+                                                <!-- <div ng-minlength="md-minlength">The description must have min 30 characters long.</div> -->
+                                            </div>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    
+                                        <md-input-container flex="45">
+                                            <label>Short Name</label>
+                                            <input>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    </div>
+
+                                    <div layout="row">
+                                        <div flex="5"></div>
+                                        <md-input-container flex="40">
+                                            <label>Address 1</label>
+                                            <input>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    
+                                        <md-input-container flex="45">
+                                            <label>Address 2</label>
+                                            <input>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    </div>
+
+                                    <div layout="row">
+                                        <div flex="5"></div>
+                                        <md-input-container flex="40">
+                                            <label>Telephone</label>
+                                            <input>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    
+                                        <md-input-container flex="45">
+                                            <label>Telephone 2</label>
+                                            <input>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    </div>
+
+                                    <div layout="row">
+                                        <div flex="5"></div>
+                                        <md-input-container flex="40">
+                                            <label>Email</label>
+                                            <input>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    
+                                        <md-input-container flex="45">
+                                            <label>Fax</label>
+                                            <input>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    </div>
+                                    
+                                    <div layout="row">
+                                        <div flex="5"></div>
+                                        <md-input-container flex="40">
+                                            <label>Type Of Business</label>
+                                            <input>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    
+                                        <md-input-container flex="45">
+                                            <label>Website</label>
+                                            <input>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    </div>
+
+                                    <div layout="row">
+                                        <div flex="5"></div>
+                                        <md-input-container flex="40">
+                                            <label>Discount Offer</label>
+                                            <input>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    
+                                        <md-input-container flex="45">
+                                            <label>Image Link</label>
+                                            <input>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    </div>
+
+                                    <div layout="row">
+                                        <div flex="5"></div>
+                                        <md-input-container flex="40">
+                                            <label>Status</label>
+                                            <input>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    
+                                        <md-input-container flex="45">
+                                            <label>City</label>
+                                            <input>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    </div>
+
+                                    <div layout="row">
+                                        <div flex="5"></div>
+                                        <div flex="85"></div>
+                                        <md-input-container>
+                                            <md-button type="submit" class="md-raised md-primary">&nbsp&nbspSave&nbsp&nbsp</md-button>
+                                        </md-input-container>
+                                        <div flex="5"></div>
+                                    </div>
+                                </md-card-content>
+                            </md-card>
+                            <!-- <p>Developers can disable closing the sidenav on backdrop clicks and 'Escape' key events.
+                                <br/>
+                            </p>
+            
+                            <div>
+                                <md-button ng-click="toggleSidenav()" class="md-raised md-primary">
+                                    Open Sidenav
+                                </md-button>
+                            </div>             -->
+                        </div>            
+                    </md-content>                    
+                </section>
+            </md-content>
+        
+        </div>
+    </body>
+</html>

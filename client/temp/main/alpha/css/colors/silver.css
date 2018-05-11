@@ -1,0 +1,305 @@
+/*-----------------------------------------------------------------------------------------------
+Project:  Mos7 - Responsive Bootstrap 3 App Landing Page Template
+Version:  1.6
+Last change:  21/09/2016
+Design by:  TemplatesPRO.com.br
+-------------------------------------------------------------------------------------------------
+
+INDEX (line):
+01) LINKS AND BUTTONS
+02) NAVBAR
+03) HEADERS - Sections
+04) COPYRIGHT
+05) SLICK CAROUSEL
+06) SLIDESHOW
+07) FEATURES
+08) OVERVIEW
+09) STATS
+10) TESTIMONIALS
+11) PRICING
+12) MORE
+13) BLOG
+14) TEAM
+15) CONTACT
+--- BLOG ---
+16) PAGE DETAIL
+17) SIDEBAR - MODULE RECENT POSTS
+18) SIDEBAR - MODULE ARCHIVES
+19) SIDEBAR - MODULE RECENT COMMENTS
+20) SIDEBAR - MODULE TAG
+21) CONTENT - MODULE CATEGORIES
+22) CONTENT - BLOG META
+23) CONTENT - BLOG AUTHOR INFO
+24) CONTENT - MODULE RELATED POSTS
+25) CONTENT - MODULE AUTHOR POSTS
+26) CONTENT - MODULE COMMENTS
+-----------------------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------------------------
+ 01) LINKS AND BUTTONS
+ ----------------------------------------------------------------------------------------------*/
+a { color: #bdc3c7; }
+.btn {
+  color: #fff;
+  background-color: #bdc3c7;
+}
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.open>.dropdown-toggle.btn { background-color: #aaafb3; }
+
+.btn-danger:active:hover,
+.btn-danger.active:hover,
+.open>.dropdown-toggle.btn-danger:hover,
+.btn-danger:active:focus,
+.btn-danger.active:focus,
+.open>.dropdown-toggle.btn-danger:focus,
+.btn-danger:active.focus,
+.btn-danger.active.focus,
+.open>.dropdown-toggle.btn-danger.focus { background-color: #aaafb3; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 02) NAVBAR
+ ----------------------------------------------------------------------------------------------*/
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-nav>li>a:hover,
+.navbar-nav>.active>a { background-color: #bdc3c7; }
+
+/* Dropdown ...................................................................................*/
+.dropdown-menu,
+.navbar-nav .open .dropdown-menu { background-color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 03) HEADERS - Sections
+ ----------------------------------------------------------------------------------------------*/
+.section-title {
+  border-bottom: 1px solid #bdc3c7;
+  color: #bdc3c7;
+}
+.section-subtitle::after { background-color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 04) COPYRIGHT
+ ----------------------------------------------------------------------------------------------*/
+/* Button Go Top ..............................................................................*/
+.go-top:hover { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 05) SLICK CAROUSEL
+ ----------------------------------------------------------------------------------------------*/
+/* Indicators .................................................................................*/
+.slick-dots li.slick-active button:before { color: #bdc3c7; }
+.slick-dots li button:before { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 06) SLIDESHOW
+ ----------------------------------------------------------------------------------------------*/
+.slideshow .brand span { color: #bdc3c7; }
+
+/* Slideshow Content - Buttons ................................................................*/
+.slideshow .btn {
+  border: 2px solid #bdc3c7;
+  background-color: rgba(189,195,199,.15);
+}
+.slideshow .btn:hover {
+  border: 2px solid #bdc3c7;
+  background-color: #bdc3c7;
+}
+.slideshow .slide-form .panel .btn {
+  border: 2px solid #bdc3c7;
+  background-color: #bdc3c7;
+}
+.slideshow .slide-form .panel .btn:hover {
+  border: 2px solid #aaafb3;
+  background-color: #aaafb3;
+}
+
+/* Slideshow - Countdown ......................................................................*/
+.slideshow .countdown .count { background-color: #bdc3c7; }
+
+/* Slideshow - Indicators .....................................................................*/
+.slideshow .carousel-indicators li:hover { border: 1px solid #bdc3c7; }
+.slideshow .carousel-indicators .active {
+  border: 1px solid #bdc3c7;
+  background-color: #bdc3c7;
+}
+
+
+/*----------------------------------------------------------------------------------------------
+ 07) FEATURES
+ ----------------------------------------------------------------------------------------------*/
+/* Section Content - Icons ....................................................................*/
+.features .features-icon { color: #bdc3c7; }
+.features .features-wrapper:hover .features-icon { background-color: #bdc3c7; }
+
+/* Features Titles ............................................................................*/
+.features .features-content .title { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 08) OVERVIEW
+ ----------------------------------------------------------------------------------------------*/
+/* Overview Titles ............................................................................*/
+.overview .title { color: #bdc3c7; }
+
+/* Tab 2 ......................................................................................*/
+.overview .overview-icon { color: #bdc3c7; }
+.overview .overview-wrapper:hover .overview-icon { background-color: #bdc3c7; }
+
+/* Tab 3 ......................................................................................*/
+.overview .progress-bar { background-color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 09) STATS
+ ----------------------------------------------------------------------------------------------*/
+.stats path + path { stroke: #bdc3c7; }
+.stats .description span { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 10) TESTIMONIALS
+ ----------------------------------------------------------------------------------------------*/
+/* Testimonials Navigation and Links ..........................................................*/
+.testimonials a { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 11) PRICING
+ ----------------------------------------------------------------------------------------------*/
+/* Price ......................................................................................*/
+.pricing .plan-price { background-color: #bdc3c7; }
+.pricing .panel:hover .plan-price { background-color: #bdc3c7; }
+.pricing .panel-popular .plan-price:before { box-shadow: 0 0 0 2px #bdc3c7; }
+.pricing .panel:hover .panel-heading { color: #bdc3c7; }
+
+/* Badge Popular ..............................................................................*/
+.pricing .badge-popular { background: url(../../images/pricing/badge_popular_silver.png) no-repeat center center; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 12) MORE
+ ----------------------------------------------------------------------------------------------*/
+.more .title-number { background-color: #bdc3c7; }
+.more .title { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 13) BLOG
+ ----------------------------------------------------------------------------------------------*/
+.blog .thumb-overlay .published { background-color: #bdc3c7; }
+
+.blog .content .title a { color: #bdc3c7; }
+
+.blog .footer-post .read-more { background-color: #bdc3c7; }
+.blog .footer-post .read-more:hover { background-color: #aaafb3; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 14) TEAM
+ ----------------------------------------------------------------------------------------------*/
+.team .team-content .name { color: #bdc3c7; }
+.team .team-media .team-social { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 15) CONTACT
+ ----------------------------------------------------------------------------------------------*/
+/* Icon .......................................................................................*/
+.contact .map-title:hover { background-color: #bdc3c7; }
+.contact .map-title a { color: #bdc3c7; }
+
+/* Links ......................................................................................*/
+.contact .vcard a { color: #bdc3c7; }
+
+
+/***********************************************************************************************/
+/*--------------------------------------   B L O G   -------------------------------------------/
+/***********************************************************************************************/
+
+
+/*----------------------------------------------------------------------------------------------
+ 16) PAGE DETAIL
+ ----------------------------------------------------------------------------------------------*/
+.blog-detail article h1 { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 17) SIDEBAR - MODULE RECENT POSTS
+ ----------------------------------------------------------------------------------------------*/
+.module-recent-posts a { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 18) SIDEBAR - MODULE ARCHIVES
+ ----------------------------------------------------------------------------------------------*/
+.module-archives a { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 19) SIDEBAR - MODULE RECENT COMMENTS
+ ----------------------------------------------------------------------------------------------*/
+.module-recent-comments a { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 20) SIDEBAR - MODULE TAG
+ ----------------------------------------------------------------------------------------------*/
+.module-tags .tag:hover { background-color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 21) CONTENT - MODULE CATEGORIES
+ ----------------------------------------------------------------------------------------------*/
+/* BLOCK ......................................................................................*/
+.module-categories .thumb-overlay .published { background-color: #bdc3c7; }
+
+.module-categories .content .title a { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 22) CONTENT - BLOG META
+ ----------------------------------------------------------------------------------------------*/
+.blog-meta .blog-tags a { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 23) CONTENT - BLOG AUTHOR INFO
+ ----------------------------------------------------------------------------------------------*/
+.blog-author-info .media-heading { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 24) CONTENT - MODULE RELATED POSTS
+ ----------------------------------------------------------------------------------------------*/
+.module-related-posts .thumb-overlay .published { background-color: #bdc3c7; }
+
+.module-related-posts .content .title a { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 25) CONTENT - MODULE AUTHOR POSTS
+ ----------------------------------------------------------------------------------------------*/
+.module-author-posts .thumb-overlay .published { background-color: #bdc3c7; }
+
+.module-author-posts .content .title a { color: #bdc3c7; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 26) CONTENT - MODULE COMMENTS
+ ----------------------------------------------------------------------------------------------*/
+.module-blog-comments .btn-reply { color: #bdc3c7; }

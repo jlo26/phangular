@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><?=$uc[0][0]?></title>
+</head>
+<body>
+	This is the content of the file<br>
+	<?=$uc[0][0]?><br>
+	<?=$uc[0][1]?>
+</body>
+</html>

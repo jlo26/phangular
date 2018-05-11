@@ -1,0 +1,54 @@
+/*-----------------------------------------------------------------------------------------------
+Project:  Mos7 - Responsive Bootstrap 3 App Landing Page Template
+Version:  1.6
+Last change:  21/09/2016
+Design by:  TemplatesPRO.com.br
+-------------------------------------------------------------------------------------------------
+
+INDEX:
+01) OVERVIEW - Images
+02) OVERVIEW - Progress Bars
+03) GALLERY
+04) TESTIMONIALS
+-----------------------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------------------------
+ 01) OVERVIEW - Images
+ ----------------------------------------------------------------------------------------------*/
+.overview .tab-pane.active .img-1 {
+  left: 0;
+  margin-top: 20%;
+}
+.overview .tab-pane.active .img-3 {
+  left: 20%;
+  margin-top: 0;
+}
+.overview .tab-pane.active .img-6 { left: 10%; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 02) OVERVIEW - Progress Bars
+ ----------------------------------------------------------------------------------------------*/
+.overview .tab-pane.active .progress-bar-10 { width: 10%; }
+.overview .tab-pane.active .progress-bar-20 { width: 20%; }
+.overview .tab-pane.active .progress-bar-30 { width: 30%; }
+.overview .tab-pane.active .progress-bar-40 { width: 40%; }
+.overview .tab-pane.active .progress-bar-50 { width: 50%; }
+.overview .tab-pane.active .progress-bar-60 { width: 60%; }
+.overview .tab-pane.active .progress-bar-70 { width: 70%; }
+.overview .tab-pane.active .progress-bar-80 { width: 80%; }
+.overview .tab-pane.active .progress-bar-90 { width: 90%; }
+.overview .tab-pane.active .progress-bar-100 { width: 100%; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 03) GALLERY
+ ----------------------------------------------------------------------------------------------*/
+.gallery .link-modal { text-decoration: none; }
+
+
+/*----------------------------------------------------------------------------------------------
+ 04) TESTIMONIALS
+ ----------------------------------------------------------------------------------------------*/
+.testimonials .carousel.fade blockquote:before { top: 72px; }
