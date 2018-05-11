@@ -44,7 +44,9 @@ extends AppMainApi\AppMainController
 		// return $this->viewObj->userFormView();
 
 		// print $this->modelObj->insertEmployeeList();
-		print_r($this->modelObj->getStatusList());
+		// print_r($this->modelObj->getStatusList());
+		print "test >>>>>>>>>";
+		$this->modelObj->statusList();
 		return $this->viewObj->employeeFormView();
 	}//end method userFormCtrl
 }//end class App001Controller

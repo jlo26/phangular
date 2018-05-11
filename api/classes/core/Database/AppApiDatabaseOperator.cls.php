@@ -255,7 +255,6 @@ class AppApiDatabaseOperator
 
 	}//end method substituteSqlElements
 
-
 	private static function getResultRange()
 	{
 		if(self::$resultHasLimit){
@@ -264,5 +263,13 @@ class AppApiDatabaseOperator
 
 		return '';
 	}//end method getResultRange
+
+	private static function getTableDefinition($tableName)
+	{
+		$sql     = "DESC $tableName";
+		$stmtObj = self::$dbConnection->prepare($sql);
+		$stmtObj->execute();
+		return $stmtObj->fetchAll();
+	}//end method 
 	
 }//end class AppApiDatabaseOperator

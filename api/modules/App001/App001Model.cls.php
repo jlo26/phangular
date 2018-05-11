@@ -63,4 +63,9 @@ extends AppMainApi\AppMainModel
 		return AppCoreDb\AppApiDatabaseOperator::read();
 	}//end method
 
+	public function statusList()
+	{
+		AppCoreDb\AppApiDatabaseRecord::s003_status();
+	}//end method
+
 }//end class App001Model
