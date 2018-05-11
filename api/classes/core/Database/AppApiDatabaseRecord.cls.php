@@ -12,6 +12,7 @@ class AppApiDatabaseRecord
 		$getContentOnly = FALSE;
 		$tabDef = AppApiDatabaseOperator::getTableDefinition($tableName);
 		print "<pre>";
+		print_r(" hheheh ???????? ");
 		print_r($tabDef);
 		print "</pre>";
 		
